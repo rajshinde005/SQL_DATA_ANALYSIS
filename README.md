@@ -1,22 +1,22 @@
-🧩 Task 4: SQL for Data Analysis
-🎯 Objective
+#🧩 Task 4: SQL for Data Analysis
+#🎯 Objective
 
 Use SQL queries to extract and analyze data from a database.
 This task focuses on applying SQL techniques to manipulate, query, and gain insights from structured data.
 
-🛠️ Tools Used
+#🛠️ Tools Used
 
 Database System: MySQL / PostgreSQL / SQLite
 
 Dataset: Ecommerce_SQL_Database (or any dataset of your choice)
 
-Deliverables:
+#Deliverables:
 
 .sql file containing all SQL queries
 
 Screenshots of query outputs
 
-📂 Repository Structure
+#📂 Repository Structure
 SQL_Data_Analysis/
 │
 ├── Ecommerce_SQL_Database.sql       # Database creation and sample data
@@ -27,7 +27,7 @@ SQL_Data_Analysis/
 │   └── ...
 └── README.md                        # Project documentation
 
-🧱 Database Design
+#🧱 Database Design
 Tables Created
 
 customers
@@ -46,7 +46,7 @@ order_items
 
 order_item_id, order_id, product_id, quantity, subtotal
 
-📊 SQL Queries Overview
+#📊 SQL Queries Overview
 🔹 1. Basic Data Exploration
 SELECT * FROM customers LIMIT 10;
 
@@ -84,7 +84,7 @@ HAVING total_spent > 10000;
 CREATE INDEX idx_customer_id ON orders(customer_id);
 CREATE INDEX idx_product_category ON products(category);
 
-🧠 Learning Outcomes
+#🧠 Learning Outcomes
 
 By completing this task, you will learn to:
 
@@ -100,7 +100,7 @@ Create and query views for analytical purposes.
 
 Optimize query performance using indexes.
 
-🚀 How to Run This Project
+#🚀 How to Run This Project
 
 Open your SQL environment (MySQL / PostgreSQL / SQLite).
 
@@ -112,7 +112,7 @@ Capture and save output screenshots in the /screenshots folder.
 
 Upload all files to your GitHub repository.
 
-📸 Output Examples
+#📸 Output Examples
 
 All output screenshots (query results) are stored in the screenshots folder, such as:
 
@@ -122,7 +122,7 @@ query2_output.png
 
 query3_output.png
 
-👨‍💻 Author
+#👨‍💻 Author
 
 Raj Shinde
 💼 Data Analytics | SQL | Power BI | Python
